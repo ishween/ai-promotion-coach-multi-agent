@@ -9,7 +9,7 @@ promotion_package_output: str
 ```
 
 ## Graph Setup ##
-### Nodes [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L51)###
+### Nodes [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L51) ###
 * `workflow.add_node("gap_analyzer", gap_analyzer_node)`
 * `workflow.add_node("promotion_package", promotion_package_node)`
 * `workflow.add_node("human_review", human_review_node)`
@@ -19,7 +19,7 @@ promotion_package_output: str
 `workflow.add_edge("competency_analyzer", "gap_analyzer")` <br>
 `workflow.add_edge("competency_analyzer", "promotion_package")`
 
-#### Conditional Edges [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L78)####
+#### Conditional Edges [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L78) ####
 ```
 workflow.add_conditional_edges(
   "opportunity_finder",
@@ -58,7 +58,7 @@ def should_call_tools(state: State) -> Literal["tools", "human_review"]:
     return ROUTE_HUMAN_REVIEW
 ```
 
-#### Graph Compile [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L120)####
+#### Graph Compile [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L120) ####
 `app = workflow.compile(checkpointer=memory)`
 
 ## LLM [utils.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/utils.py#L41) ##
