@@ -1,6 +1,6 @@
 # Hands-on Guide #
 
-## State (orchestrator/state.py) ##
+## State [orchestrator/state.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/state.py#L53) ##
 ```
 competency_analyzer_output: str
 gap_analyzer_output: str
@@ -8,18 +8,18 @@ opportunity_finder_output: Annotated[str, reduce_opportunity_output]
 promotion_package_output: str
 ```
 
-## Graph Setup (orchestrator/graph.py) ##
-### Nodes ###
+## Graph Setup ##
+### Nodes [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L51)###
 * `workflow.add_node("gap_analyzer", gap_analyzer_node)`
 * `workflow.add_node("promotion_package", promotion_package_node)`
 * `workflow.add_node("human_review", human_review_node)`
 
 ### Edges ###
-#### Parallel Edges ####
+#### Parallel Edges [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L78) ####
 `workflow.add_edge("competency_analyzer", "gap_analyzer")` <br>
 `workflow.add_edge("competency_analyzer", "promotion_package")`
 
-#### Conditional Edges ####
+#### Conditional Edges [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L78)####
 ```
 workflow.add_conditional_edges(
   "opportunity_finder",
@@ -30,7 +30,7 @@ workflow.add_conditional_edges(
   }
 )
 ```
-##### Routing for conditional edge (orchestrator/routing.py) #####
+##### Routing for conditional edge [orchestrator/routing.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/routing.py#L73) #####
 ```
 def should_call_tools(state: State) -> Literal["tools", "human_review"]:
     """
@@ -58,10 +58,10 @@ def should_call_tools(state: State) -> Literal["tools", "human_review"]:
     return ROUTE_HUMAN_REVIEW
 ```
 
-#### Graph Compile ####
+#### Graph Compile [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L120)####
 `app = workflow.compile(checkpointer=memory)`
 
-## LLM ##
+## LLM [utils.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/utils.py#L41)##
 ```
 def create_llm(model_name: str = "gemini-2.5-flash", temperature: float = 0.7):
     
@@ -80,19 +80,22 @@ def create_llm(model_name: str = "gemini-2.5-flash", temperature: float = 0.7):
 
 ## Agents ##
 ### Competency Analyzer ###
+[Line 83](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/competency_analyzer.py#L83)
 ```
 chain = prompt | llm
 ```
 
+[Line 92](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/competency_analyzer.py#L92)
 ```
 response = chain.invoke(input_data)
 ```
-
+[Line 99](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/competency_analyzer.py#L99)
 ```
 return {self.get_output_key(): content}
 ```
 
 ### Gap Analyzer ###
+[Line 21](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/gap_analyzer.py#L21)
 ```
 def get_system_prompt(self) -> str:
         return """You are a Career Gap Analysis Specialist who specializes in gap analysis. 
@@ -104,6 +107,7 @@ def get_system_prompt(self) -> str:
         promotion level requirements."""
 ```
 
+[Line 26](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/gap_analyzer.py#L26)
 ```
 def get_human_prompt_template(self) -> str:
         return """Identify gaps between {name}'s current capabilities and target level requirements.
@@ -139,6 +143,7 @@ Structured analysis with:
 ```
 
 ### Opportunity Finder ###
+[Line 104](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/opportunity_finder.py#L104)
 ```
 if wants_course_suggestions:
   tools = [search_learning_courses]
@@ -148,6 +153,7 @@ else:
 ```
 
 ### Promotion Package ###
+[Line 113](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/agents/promotion_package.py#L113)
 ```
 def promotion_package_node(
     state: Dict[str, Any],
@@ -168,9 +174,10 @@ def promotion_package_node(
 ```
 
 ## Tools ##
-### search_learning_courses (tools/course_search.py) ###
+### search_learning_courses [tools/course_search.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/tools/course_search.py#L18) ###
 `@tool`
 
+[Line 42](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/tools/course_search.py#L42)
 ```
 serper_url = "https://google.serper.dev/search"
 headers = {
@@ -189,7 +196,7 @@ final_messages = [
 response = llm.invoke(final_messages)
 ```
 
-## Streaming (orchestrator/workflow.py) ##
+## Streaming [orchestrator/workflow.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/workflow.py#L100) ##
 ```
 async for event in app.astream_events(
         initial_state,
