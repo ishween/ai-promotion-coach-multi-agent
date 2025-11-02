@@ -48,13 +48,16 @@ def create_graph():
     # Add nodes
     workflow.add_node("route_workflow", lambda state: state)  # Entry node that routes
     workflow.add_node("competency_analyzer", competency_analyzer_node)
-    workflow.add_node("gap_analyzer", gap_analyzer_node)
-    workflow.add_node("promotion_package", promotion_package_node)
+    '''
+    Add from Handbook.md
+    '''
     workflow.add_node("collect_preferences", collect_learning_preferences_node)
     workflow.add_node("opportunity_finder", opportunity_finder_with_tools)
     workflow.add_node("tools", tools_node_with_streaming)
     workflow.add_node("process_tool_results", process_tool_results)
-    workflow.add_node("human_review", human_review_node)
+    '''
+    Add from Handbook.md
+    '''
     workflow.add_node("save_outputs", save_outputs_node)
     
     # Set entry point
@@ -72,8 +75,9 @@ def create_graph():
     
     # Define edges for first-time workflow
     # After competency_analyzer, run gap_analyzer and promotion_package in parallel
-    workflow.add_edge("competency_analyzer", "gap_analyzer")
-    workflow.add_edge("competency_analyzer", "promotion_package")
+    '''
+    Add from Handbook.md
+    '''
     
     # After gap_analyzer, collect learning preferences before opportunity_finder
     workflow.add_edge("gap_analyzer", "collect_preferences")
@@ -82,14 +86,9 @@ def create_graph():
     workflow.add_edge("collect_preferences", "opportunity_finder")
     
     # After opportunity_finder, check if tools need to be called
-    workflow.add_conditional_edges(
-        "opportunity_finder",
-        should_call_tools,
-        {
-            ROUTE_TOOLS: "tools",
-            ROUTE_HUMAN_REVIEW: "human_review"
-        }
-    )
+    '''
+    Add from Handbook.md
+    '''
     
     # After tools, process results
     workflow.add_edge("tools", "process_tool_results")
@@ -118,7 +117,10 @@ def create_graph():
     
     # Compile with memory for checkpointing
     memory = MemorySaver()
-    app = workflow.compile(checkpointer=memory)
+    '''
+    Add from Handbook.md
+    '''
+
     
     return app
 

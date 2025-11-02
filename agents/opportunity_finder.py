@@ -100,13 +100,9 @@ Structured recommendations with:
         # Create LLM - conditionally bind tools based on user preference
         llm = self.create_llm()
         
-        if wants_course_suggestions:
-            # User wants course suggestions, so bind the tool
-            tools = [search_learning_courses]
-            llm_with_tools = llm.bind_tools(tools)
-        else:
-            # User doesn't want course suggestions, don't bind tools
-            llm_with_tools = llm
+        '''
+        Add from Handbook.md
+        '''
         
         # Create prompt
         prompt = self.create_prompt()

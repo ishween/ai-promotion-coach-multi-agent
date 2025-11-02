@@ -68,15 +68,8 @@ def should_call_tools(state: State) -> Literal["tools", "human_review"]:
     Returns:
         Route name: "tools" or "human_review"
     """
-    # Check if there are messages with tool calls
-    messages = state.get("messages", [])
-    for msg in messages:
-        if hasattr(msg, "tool_calls") and msg.tool_calls:
-            return ROUTE_TOOLS
     
-    # Check if opportunity_finder_output is empty but we're in opportunity_finder step
-    if not state.get("opportunity_finder_output") and messages:
-        return ROUTE_TOOLS
-    
-    return ROUTE_HUMAN_REVIEW
+    '''
+    Add from Handbook.md
+    '''
 

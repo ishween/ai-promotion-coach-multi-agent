@@ -14,7 +14,9 @@ if not SERPER_API_KEY:
     raise ValueError("SERPER_API_KEY not found in environment variables")
 
 # @tool is used to convert the function to a tool that can be used in the workflow
-@tool
+'''
+        Add from Handbook.md
+'''
 def search_learning_courses(
     skill_gap: str,
     learning_style: str = "online",
@@ -36,11 +38,10 @@ def search_learning_courses(
         query = f"{skill_gap} course {learning_style} learning"
         
         # Search using Serper API
-        serper_url = "https://google.serper.dev/search"
-        headers = {
-            "X-API-KEY": SERPER_API_KEY,
-            "Content-Type": "application/json"
-        }
+        '''
+        Add from Handbook.md
+        '''
+
         # Cap max_results at 3
         max_results = min(max_results, 3)
         

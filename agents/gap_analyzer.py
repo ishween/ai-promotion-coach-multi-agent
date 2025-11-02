@@ -17,46 +17,14 @@ class GapAnalyzerAgent(BaseAgent):
             name="gap_analyzer"
         )
     
-    def get_system_prompt(self) -> str:
-        return """You are a Career Gap Analysis Specialist who specializes in gap analysis. 
-        You carefully compare engineers' current performance, skills, and achievements against 
-        target-level requirements. You identify specific areas for development and prioritize 
-        them based on impact and feasibility.
-        
-        Your goal is to identify gaps between an engineer's current capabilities and target 
-        promotion level requirements."""
+    '''
+        Add from Handbook.md
+    '''
     
     def get_human_prompt_template(self) -> str:
-        return """Identify gaps between {name}'s current capabilities and target level requirements.
-
-CONTEXT:
-- Engineer: {name}
-- Current Level: {current_level}
-- Target Level: {target_level}
-- Discipline: {discipline}
-
-COMPETENCY REQUIREMENTS:
-{competency_analyzer_output}
-
-PERFORMANCE EVIDENCE:
-- Manager Notes: {manager_notes}
-- Performance Reviews: {performance_reviews}
-- Peer Feedback: {peer_feedback}
-- Self Assessment: {self_assessment}
-- Project Contributions: {project_contributions}
-
-YOUR TASK:
-1. Compare current capabilities against target requirements
-2. Identify specific gaps in skills, experience, and behaviors
-3. Prioritize gaps based on impact and feasibility
-4. Provide actionable recommendations
-
-OUTPUT FORMAT:
-Structured analysis with:
-- Identified gaps
-- Priority levels
-- Evidence assessment
-- Development recommendations"""
+        '''
+        Add from Handbook.md
+        '''
     
     def validate_state(self, state: State) -> Optional[Dict[str, Any]]:
         """Validate that competency_analyzer_output exists."""
