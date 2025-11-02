@@ -1,0 +1,38 @@
+# Performance Reviews - Q1-Q4 2024
+
+## Overall Rating: Exceeds Expectations
+
+### Technical Excellence
+- High-quality, maintainable code
+- Led microservices migration, reducing latency by 40%
+- Implemented testing framework, improving coverage to 85%
+- Built API endpoints serving 1M+ requests daily
+- Strong problem-solving and attention to detail
+
+### Leadership & Mentorship
+- Mentored 2 junior engineers (both received positive reviews)
+- Thorough code reviews with constructive feedback
+- Takes initiative in technical discussions and architecture
+- Effective onboarding support
+
+### Communication & Collaboration
+- Clear communication in written and verbal formats
+- Collaborates well with cross-functional teams
+- Documents technical decisions thoroughly
+- Active in team meetings and discussions
+
+### Areas for Growth
+- More visibility across different teams
+- Take on more strategic responsibilities
+- Lead larger cross-team initiatives
+
+### Goals for Next Period
+- Lead cross-team technical initiative
+- Increase mentoring responsibilities
+- Take on strategic planning
+- Improve organizational visibility
+
+### Manager Comments
+"Outstanding contributor. Exceptional technical skills and strong leadership potential. Recommend for promotion consideration."
+
+Cross-collaboration is going well.

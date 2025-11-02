@@ -1,0 +1,249 @@
+
+### Senior Software Engineer (L5)
+
+Senior Software Engineers are **experienced and autonomous** engineers who are **leaders** within their teams. They are responsible for **leading major features**, participating in **architectural decisions**, and **mentoring** other engineers. They have a **deep understanding of their domain** and are able to tackle the most complex technical challenges.
+
+#### Technical Proficiency
+- Is an **expert** in the team's primary technologies and is a **go-to person** for technical questions.
+- Designs and implements **complex, scalable, and maintainable systems**.
+- Has a **deep understanding of system design, architecture, and trade-offs**.
+- Can **lead technical design and architecture discussions**.
+- Is proficient in a wide range of technologies and can quickly learn new ones.
+- Can effectively debug and resolve the most **complex and critical production issues**.
+- Actively drives technical innovation and improvement within the team.
+- Is a **thought leader** on technical matters within their domain.
+- Can write code that is a **model for others to follow**.
+- Is an expert in software development best practices.
+- Can effectively evaluate and introduce new technologies to the team.
+
+#### Problem Solving
+- Can independently tackle the most **complex and ambiguous** technical problems.
+- Can break down large, complex problems into manageable parts and **lead the team to a solution**.
+- Is skilled at identifying and **mitigating technical risks**.
+- Can think **strategically** and make decisions that have a **long-term impact**.
+- Is a **creative and innovative** problem solver.
+- Can effectively lead the team through complex troubleshooting and debugging sessions.
+- Is able to **anticipate future problems** and design solutions that are resilient and scalable.
+- Can effectively analyze and solve problems at a **systemic level**.
+- Is a **master of their craft** and can solve problems that others cannot.
+- Can effectively communicate complex technical problems and solutions to a **wide audience**.
+
+#### Impact & Scope
+- Consistently delivers on **large, complex projects** that have a **significant impact on the business**.
+- Their work has a **broad impact**, often spanning multiple teams or even the entire organization.
+- Can **lead and drive major technical initiatives** from start to finish.
+- Their contributions are **critical to the success** of the company's key objectives.
+- Is a **force multiplier** for the team, enabling others to be more productive and effective.
+- Their work sets a **high bar for quality and excellence**.
+- Is a **key contributor to the company's technical strategy**.
+- Their impact is **widely recognized** throughout the engineering organization.
+- Can effectively manage large and complex projects with multiple dependencies.
+- Their work has a **lasting and positive impact** on the company's products and technology.
+
+#### Leadership & Mentorship
+- Is a **strong technical leader and role model** for the entire team.
+- **Actively mentors and develops** other engineers, helping them to grow their careers.
+- Can effectively **lead and manage a project team**.
+- Is a **trusted advisor** to their manager and other leaders.
+- Helps to build a **high-performing and inclusive team culture**.
+- Is a strong advocate for the team and its members.
+- Can effectively **resolve conflicts and build consensus** within the team.
+- Is a **leader in the engineering community**, both internally and externally.
+- Inspires and motivates others to do their best work.
+- Is a **key player in the hiring and development** of new talent.
+
+#### Communication & Collaboration
+- Is an **excellent communicator**, both written and verbal.
+- Can effectively communicate complex technical concepts to **any audience**, from junior engineers to executives.
+- Is a skilled **negotiator** and can effectively **influence** others.
+- Is a **master of collaboration** and can work effectively with anyone.
+- Can effectively **lead and facilitate** technical discussions and debates.
+- Is a **trusted and respected voice** in any room.
+- Can write clear, concise, and **persuasive technical documents**.
+- Is a strong advocate for their ideas, but is also open to feedback and compromise.
+- Can build **strong relationships** with people across the organization.
+- Is a master of their domain and can effectively **represent the team** to the rest of the company.
+
+#### Autonomy & Initiative
+- Is **completely autonomous** and can be trusted to deliver on any task or project.
+- Is a **self-starter** and is always looking for new ways to add value.
+- Is **proactive** in identifying and solving problems before they become critical.
+- Can be trusted to make the right decisions, even in the face of ambiguity.
+- Is a leader who takes **ownership and drives results**.
+- Is not afraid to take risks and **challenge the status quo**.
+- Is always looking for opportunities to learn and grow.
+- Is a **role model for initiative and proactivity**.
+- Can be trusted to represent the team and the company in any situation.
+- Is a **key driver of innovation and progress** within the company.
+
+#### Business Acumen
+- Has a **deep understanding of the company's business, strategy, and goals**.
+- Can effectively **translate business needs into technical solutions**.
+- Is a **strategic thinker** and can see the big picture.
+- Can make technical decisions that have a **positive impact on the bottom line**.
+- Is a **trusted advisor to product and business leaders**.
+- Can effectively communicate the **business value of technology**.
+- Is a **key contributor to the company's product and technology strategy**.
+- Is an expert in their domain and can provide valuable insights to the business.
+- Is a **strong advocate for the user** and is always looking for ways to improve the customer experience.
+- Is a leader who can effectively **balance business and technical priorities**.
+
+#### Quality & Best Practices
+- Is a **champion for software quality and best practices**.
+- **Sets the standard for quality and excellence** within the team and the organization.
+- Is a **leader in driving continuous improvement** of our development processes.
+- Is an expert in software engineering principles and can apply them to solve complex problems.
+- Is a **master of their craft** and is always looking for ways to improve.
+- Is a **role model for quality and professionalism**.
+- Is a **key contributor to the company's technical standards and best practices**.
+- Is a leader in the adoption of new tools and technologies that improve quality.
+- Is an expert in debugging and resolving the most critical production issues.
+- Is a key player in building a **culture of quality and excellence** across the company.
+
+#### Influence
+- Has a **significant and positive influence on the technical direction** of their team.
+- Is a **respected and influential leader** within the engineering organization.
+- Their ideas and opinions are **sought out by leaders** across the company.
+- Can effectively **drive change and innovation** across the organization.
+- Is a **role model and mentor** for other engineers.
+- Their work has a lasting and positive impact on the company's culture and values.
+- Is a **leader in the engineering community** and is respected by their peers.
+- Can effectively represent the company at industry events and conferences.
+- Is a **key player in shaping the future** of the company's technology.
+- Their influence extends beyond the engineering organization to the entire company.
+
+#### Growth Mindset
+- Is a **lifelong learner** who is always looking for new ways to grow and develop.
+- Is a **role model for a growth mindset** and inspires others to be the same.
+- Is always open to new ideas and perspectives.
+- Is not afraid to fail and **learns from their mistakes**.
+- Is always looking for ways to **challenge themselves** and push the boundaries.
+- Is a **leader in the adoption of new technologies** and ways of working.
+- Is a **key contributor to a culture of learning and continuous improvement**.
+- Is a mentor and coach to others, helping them to grow and develop.
+- Is a leader who is always looking for ways to make the company better.
+- Is a visionary who is always looking to the future.
+
+### Staff Engineer (L6)
+
+Staff Engineers are **technical leaders** who operate with a **broad scope and influence** across multiple teams. They are responsible for solving the **most complex and ambiguous technical problems** and for **setting the technical direction** for large parts of the organization.
+
+#### Technical Proficiency
+- Possesses **deep expertise in multiple technical domains** and is a **recognized authority**.
+- Designs and builds **complex, distributed systems** that are scalable, reliable, and performant.
+- Has a **profound understanding of the entire technology stack**, from infrastructure to application level.
+- **Leads the architectural vision** for significant parts of the company's technology.
+- Can effectively evaluate and make **strategic decisions** about new technologies and platforms.
+- Is a **master of debugging** and can solve the most challenging and systemic issues.
+- **Drives technical innovation and excellence** across the entire engineering organization.
+- Is a **thought leader** who is respected both internally and externally.
+- Can write code that is not only exemplary but also **sets new standards** for the organization.
+- Is a **key contributor to the company's long-term technical strategy**.
+
+#### Problem Solving
+- **Thrives in ambiguity** and can solve the most **complex and ill-defined problems**.
+- Can identify and solve problems that have a **company-wide impact**.
+- Is a **strategic thinker** who can anticipate future challenges and opportunities.
+- Can **lead large, cross-functional teams** to solve complex technical problems.
+- Is a **master of root cause analysis** and can prevent problems from recurring.
+- Can effectively balance **short-term needs with long-term strategic goals**.
+- Is a **visionary** who can see new possibilities and opportunities that others miss.
+- Can effectively communicate complex technical problems and solutions to **executive leadership**.
+- Is a **key driver of innovation** and is always looking for new and better ways to solve problems.
+- Their problem-solving skills are a **key asset to the company**.
+
+#### Impact & Scope
+- Their work has a **transformative impact** on the company's business and technology.
+- Their **scope of influence extends across the entire engineering organization** and often beyond.
+- **Leads and drives the most critical and strategic technical initiatives** for the company.
+- Their contributions are **essential to the company's long-term success**.
+- Is a **force multiplier** for the entire engineering organization.
+- Their work **sets the technical direction for the company for years to come**.
+- Is a **key player in the company's strategic planning process**.
+- Their impact is **felt at all levels of the organization**, from individual engineers to the executive team.
+- Can effectively manage and deliver on the most **complex and high-stakes projects**.
+- Their work has a **lasting legacy** on the company's technology and culture.
+
+#### Leadership & Mentorship
+- Is a **senior technical leader** who is respected and admired throughout the company.
+- **Mentors and develops the next generation of technical leaders**.
+- Is a **trusted advisor to senior leadership** on all technical matters.
+- Helps to **shape the culture and values** of the entire engineering organization.
+- Is a **strong advocate for engineering excellence and innovation**.
+- Can effectively **lead and inspire large, cross-functional teams**.
+- Is a **master of influence** and can build consensus around their ideas.
+- Is a **leader in the broader engineering community**.
+- Their leadership is a **key reason for the company's success**.
+- Is a **role model for all engineers** in the company.
+
+#### Communication & Collaboration
+- Is a **world-class communicator** who can effectively engage with any audience.
+- Can articulate a **clear and compelling technical vision** for the company.
+- Is a **master of persuasion** and can get buy-in for their ideas from anyone.
+- Is a **highly effective collaborator** who can work with people at all levels of the organization.
+- Can effectively **represent the company's technology** to customers, partners, and the industry.
+- Is a **trusted and respected voice** in the company's leadership team.
+- Can write technical documents that are **clear, concise, and influential**.
+- Is a **master of building relationships and networks**.
+- Can effectively **mediate and resolve the most complex and sensitive conflicts**.
+- Their communication and collaboration skills are a **key asset to the company**.
+
+#### Autonomy & Initiative
+- Is **completely autonomous** and can be trusted to lead the most important technical initiatives.
+- Is a **visionary** who is always looking for new opportunities to innovate and create value.
+- Is a **proactive leader** who is always one step ahead of the competition.
+- Can be trusted to make the right decisions, even in the most **complex and uncertain situations**.
+- Is a leader who is not afraid to take **calculated risks and challenge the status quo**.
+- Is a **lifelong learner** who is always looking for new ways to grow and improve.
+- Is a **role model for initiative and proactivity** for the entire company.
+- Can be trusted to **represent the company at the highest levels**.
+- Is a **key driver of the company's long-term success**.
+- Their autonomy and initiative are a **key reason for the company's innovation and growth**.
+
+#### Business Acumen
+- Has a **deep and strategic understanding of the company's business, market, and competitive landscape**.
+- Is a **key partner to the business** and helps to **shape the company's strategy**.
+- Can effectively **translate business strategy into a technical roadmap**.
+- Can make technical decisions that have a **significant and positive impact on the company's financial performance**.
+- Is a **trusted advisor to the executive team** on all matters related to technology.
+- Can effectively communicate the **business value of technology to investors and the board of directors**.
+- Is a **key player in the company's long-term strategic planning**.
+- Is an expert in their industry and is a **thought leader on the future of technology**.
+- Is a **strong advocate for the customer** and is always looking for ways to create more value for them.
+- Is a leader who can effectively **balance the needs of the business, the customer, and the technology**.
+
+#### Quality & Best Practices
+- Is a **thought leader on software quality and best practices**, both internally and externally.
+- **Sets the standard for quality and excellence** for the entire industry.
+- Is a **leader in driving innovation** in software development methodologies and processes.
+- Is a **master of software engineering principles** and can apply them to solve the most complex problems.
+- Is a **role model for quality and professionalism** for the entire engineering community.
+- Is a **key contributor to the development of industry standards and best practices**.
+- Is a leader in the adoption of new technologies and tools that improve quality and productivity.
+- Is an **expert in building and maintaining highly reliable and scalable systems**.
+- Is a key player in building a **culture of quality and excellence** that is the envy of the industry.
+- Their commitment to quality is a **key reason for the company's success and reputation**.
+
+#### Influence
+- Has a **profound and lasting influence on the company's technology, culture, and direction**.
+- Is one of the **most respected and influential technical leaders** in the company and the industry.
+- Their ideas and vision **shape the future of the company's technology**.
+- Can effectively **drive change and innovation on a massive scale**.
+- Is a **mentor and role model for hundreds of engineers**.
+- Their work has a **positive impact on the lives of millions of users**.
+- Is a **leader in the engineering community** and is a sought-after speaker and author.
+- Can effectively **represent the company's technology to the world**.
+- Is a **key player in shaping the future of the technology industry**.
+- Their influence extends beyond the engineering organization to the entire company.
+
+#### Growth Mindset
+- Is a **lifelong learner** who is always looking for new ways to grow and develop.
+- Is a **role model for a growth mindset** and inspires others to be the same.
+- Is always open to new ideas and perspectives.
+- Is not afraid to fail and **learns from their mistakes**.
+- Is always looking for ways to **challenge themselves and push the boundaries**.
+- Is a **leader in the adoption of new technologies** and ways of working.
+- Is a **key contributor to a culture of learning and continuous improvement**.
+- Is a **mentor and coach** to others, helping them to grow and develop.
+- Is a leader who is always looking for ways to make the company better.
+- Is a **visionary** who is always looking to the future.

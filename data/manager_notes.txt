@@ -1,0 +1,69 @@
+# Manager Notes - Q4 2024
+
+## Technical Excellence
+
+### Strengths
+- **Code Quality**: Clean, maintainable, well-documented code
+- **Problem Solving**: Excellent at breaking down complex problems
+- **Architecture**: Strong system design and microservices expertise
+- **Performance**: Led migration reducing latency by 40%
+- **Testing**: Implemented framework improving coverage to 85%
+
+### Key Achievements
+- Led complete microservices migration project
+- Built API endpoints serving 1M+ daily requests
+- Implemented automated testing framework improving team productivity
+- Thorough code reviews and valuable feedback
+- Resolved critical production issues
+
+## Leadership and Mentorship
+
+### Strengths
+- **Mentoring**: Successfully mentored 2 junior engineers (both received positive reviews)
+- **Knowledge Sharing**: Regularly shares technical knowledge and best practices
+- **Code Reviews**: Provides thorough, constructive feedback
+- **Collaboration**: Works well with cross-functional teams
+- **Initiative**: Takes initiative in technical discussions and architecture decisions
+
+### Areas for Growth
+- **Cross-team Visibility**: More exposure to other teams and departments
+- **Strategic Thinking**: Take on more strategic responsibilities
+- **External Communication**: Improve visibility in external technical communities
+- **Project Management**: Lead larger, more complex projects
+
+## Communication and Collaboration
+
+### Strengths
+- Clear written and verbal communication
+- Effective cross-functional collaboration
+- Creates comprehensive technical documentation
+
+### Areas for Growth
+- **Presentation Skills**: Improve public speaking abilities
+- **Stakeholder Communication**: More communication with senior leadership
+- **External Representation**: Represent team in external forums
+
+## Goals and Development Plan
+
+### Short-term (Next 6 months)
+1. Lead cross-team technical initiative
+2. Increase mentoring responsibilities
+3. Take on strategic planning activities
+4. Improve organizational visibility
+5. Present technical work to senior leadership
+
+### Long-term (Next 12 months)
+1. Promotion consideration to L5
+2. Lead larger, complex projects
+3. Establish technical leadership in domain areas
+4. Contribute to company-wide technical standards
+5. Expand mentoring
+
+### Promotion Requirements
+1. Increase cross-team visibility and collaboration
+2. Take on more strategic responsibilities
+3. Lead larger, more complex projects
+4. Improve external communication and representation
+5. Demonstrate impact beyond immediate team
+
+**Promotion Recommendation: Yes, with continued development**

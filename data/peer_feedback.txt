@@ -1,0 +1,55 @@
+# Peer Feedback
+# Feedback Collection: Q4 2024
+
+## Technical Collaboration
+
+### Alex Chen (Senior Engineer)
+"Isha is an excellent collaborator and technical partner. Her code reviews are thorough and always provide valuable insights. She's great at explaining complex concepts and helping others understand the technical decisions we make. I've learned a lot from working with her on the microservices migration project."
+
+## Mentoring and Knowledge Sharing
+
+### Jennifer Liu (Junior Engineer)
+"Isha has been an amazing mentor to me. She's patient, encouraging, and always takes time to explain things thoroughly. Her code reviews have helped me improve significantly, and she's always available to answer questions or provide guidance. I feel much more confident in my technical abilities thanks to her support."
+
+### Michael Thompson (Junior Engineer)
+"Isha is an incredible mentor. She doesn't just tell me what to do, but explains the reasoning behind decisions. She's helped me understand not just how to write code, but how to think about system design and architecture. I've grown a lot as an engineer under her guidance."
+
+## Team Dynamics
+
+### Lisa Wang (Product Manager)
+"Isha is a pleasure to work with. She's always willing to explain technical concepts in terms that non-technical team members can understand. Her input on technical feasibility and trade-offs has been invaluable for our product planning. She's proactive in identifying potential issues and suggesting solutions."
+
+## Leadership and Initiative
+
+### Tom Wilson (Engineering Manager)
+"Isha shows strong leadership potential. She takes initiative in technical discussions and isn't afraid to challenge decisions when she has concerns. Her work on the microservices migration demonstrated excellent project management skills and technical leadership."
+
+## Areas for Growth
+
+### Constructive Feedback
+- **Cross-team Visibility**: "Isha could benefit from more exposure to other engineering teams. Her technical skills would be valuable in cross-team initiatives."
+- **External Communication**: "It would be great to see Isha represent our team in external technical communities or conferences."
+- **Strategic Thinking**: "Isha has strong technical skills but could take on more strategic responsibilities and long-term planning."
+
+## Overall Assessment
+
+### Strengths
+- **Technical Excellence**: High-quality, well-tested code
+- **Mentoring**: Excellent at guiding junior engineers
+- **Collaboration**: Works well with cross-functional teams
+- **Communication**: Clear in written and verbal communication
+- **Initiative**: Takes ownership and drives projects to completion
+
+### Impact on Team
+- Improved code quality through reviews and mentoring
+- Enhanced productivity via automated testing framework
+- Increased knowledge sharing and technical discussions
+- Better cross-functional collaboration
+- Stronger learning culture
+
+### Recommendations
+1. **Expand Influence**: More cross-team initiatives
+2. **External Engagement**: Technical communities and conferences
+3. **Strategic Leadership**: More planning responsibilities
+4. **Mentoring Expansion**: Mentor engineers from other teams
+5. **Technical Leadership**: Lead complex, high-impact projects
