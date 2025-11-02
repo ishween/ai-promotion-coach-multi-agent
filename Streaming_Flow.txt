@@ -1,0 +1,53 @@
+┌─────────────────────────────────────────────────────────┐
+│                    LangGraph Execution                   │
+│  (orchestrator/graph.py: create_graph() → app)         │
+│                                                          │
+│  StateGraph with nodes:                                 │
+│  - competency_analyzer                                  │
+│  - gap_analyzer                                         │
+│  - opportunity_finder → tools → process_tool_results   │
+│  - promotion_package                                    │
+└────────────────┬────────────────────────────────────────┘
+                 │
+                 │ Executes workflow
+                 │ Emits events automatically
+                 ▼
+┌─────────────────────────────────────────────────────────┐
+│              Event Stream (astream_events)               │
+│  (orchestrator/workflow.py: run_workflow())             │
+│                                                          │
+│  Events emitted:                                         │
+│  - on_chain_start    (when node begins)                 │
+│  - on_chat_model_stream (LLM generates tokens)          │
+│  - on_chain_end      (when node completes)              │
+│  - on_tool_start     (when tool begins)                 │
+│  - on_tool_end       (when tool completes)               │
+│  - on_tool_error     (when tool fails)                  │
+│  - on_chain_error    (when node fails)                  │
+└────────────────┬────────────────────────────────────────┘
+                 │
+                 │ async for event in app.astream_events()
+                 ▼
+┌─────────────────────────────────────────────────────────┐
+│              Event Loop & Dispatch                       │
+│  (run_workflow() lines 420-469)                         │
+│                                                          │
+│  Event → Handler Mapping:                               │
+│  "on_chain_start"    → _handle_chain_start_event()     │
+│  "on_chat_model_stream" → _handle_chat_model_stream()  │
+│  "on_chain_end"      → _handle_chain_end_event()        │
+│  "on_tool_start"     → _handle_tool_start_event()       │
+│  "on_tool_end"       → _handle_tool_end_event()         │
+└────────────────┬────────────────────────────────────────┘
+                 │
+                 │ Handler functions execute
+                 ▼
+┌─────────────────────────────────────────────────────────┐
+│            Progress Display & State Tracking            │
+│                                                          │
+│  Handlers:                                               │
+│  1. Extract event data (node name, tool name, etc.)     │
+│  2. Update tracking state (active_node, active_tools)   │
+│  3. Display progress to console                        │
+│  4. Update final_state from outputs                     │
+└─────────────────────────────────────────────────────────┘
