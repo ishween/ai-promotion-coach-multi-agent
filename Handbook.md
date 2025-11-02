@@ -61,7 +61,7 @@ def should_call_tools(state: State) -> Literal["tools", "human_review"]:
 #### Graph Compile [orchestrator/graph.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/orchestrator/graph.py#L120)####
 `app = workflow.compile(checkpointer=memory)`
 
-## LLM [utils.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/utils.py#L41)##
+## LLM [utils.py](https://github.com/ishween/ai-promotion-coach-multi-agent/blob/main/utils.py#L41) ##
 ```
 def create_llm(model_name: str = "gemini-2.5-flash", temperature: float = 0.7):
     
