@@ -1,6 +1,6 @@
 # Hands-on Guide #
 
-## State (orchestrator/state.py)##
+## State (orchestrator/state.py) ##
 ```
 competency_analyzer_output: str
 gap_analyzer_output: str
