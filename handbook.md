@@ -61,6 +61,23 @@ def should_call_tools(state: State) -> Literal["tools", "human_review"]:
 #### Graph Compile ####
 `app = workflow.compile(checkpointer=memory)`
 
+## LLM ##
+```
+def create_llm(model_name: str = "gemini-2.5-flash", temperature: float = 0.7):
+    
+    load_dotenv()
+    
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY not found in environment variables")
+    
+    return ChatGoogleGenerativeAI(
+        model=model_name,
+        temperature=temperature,
+        google_api_key=api_key
+    )
+```
+
 ## Agents ##
 ### Competency Analyzer ###
 ```
