@@ -1,0 +1,28 @@
+Workflow Execution Flow:
+┌─────────────────────────────────────┐
+│ 1. Node executes                    │
+│    (e.g., competency_analyzer)     │
+└──────────────┬──────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────┐
+│ 2. State is saved to checkpoint      │
+│    - Stored under thread_id          │
+│    - Contains all state variables   │
+│    - Includes message history       │
+└──────────────┬──────────────────────┘
+               │
+               ↓
+┌─────────────────────────────────────┐
+│ 3. Next node loads state from       │
+│    checkpoint (if resuming)          │
+└─────────────────────────────────────┘
+
+
+What is thread_id?
+- Unique identifier for each workflow run.
+- Groups checkpoints for the same conversation/session. Important for conversation/session history. 
+- Allows resuming or inspecting specific runs.
+- In this code: "{engineer_name}_{target_level}" (e.g., "Isha_L5"). 
+
+In this project, MemorySaver stores state in memory (in-process). For production, use persistent checkpointers like SqliteSaver or PostgresSaver.
