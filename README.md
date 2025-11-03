@@ -2,7 +2,7 @@
 
 <img width="1283" height="719" alt="Screenshot 2025-11-02 at 11 38 13 AM" src="https://github.com/user-attachments/assets/de156b8a-4485-43fc-9885-d34b06f0e031" />
 
-## 🚀 Quick Setup & Running
+## Quick Setup & Running
 
 ### Automated Setup (Recommended)
 
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 - Check that keys are set without quotes: `GEMINI_API_KEY=actual_key_here`
 - Ensure no extra spaces or line breaks in `.env` file
 
-## 📚 Additional Resources
+## Additional Resources
 
 - See `handbook.md` for detailed technical documentation
 - Check `SETUP.md` for manual setup instructions
